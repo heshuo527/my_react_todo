@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.d218bf3e.css","mappings":"AAAA,WAEI,kBAAmB,CADnB,4BAEJ,CAEA,WACI,aACJ","sources":["index.css"],"sourcesContent":[".todo-done {\r\n    text-decoration: line-through;\r\n    background: skyblue;\r\n}\r\n\r\n.todo-time {\r\n    margin: 0 20px;\r\n}"],"names":[],"sourceRoot":""}
