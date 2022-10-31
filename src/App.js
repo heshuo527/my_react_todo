@@ -52,11 +52,10 @@ function App() {
   // 反序列化本地todoList, 解析到页面
   const loadTodoList = () => {
     let todos = localStorage.todoList
-    if (todos.length > 0) {
-      setTodoList(JSON.parse(todos))
-    } else {
-      setTodoList([...todoList])
+    if (!todos) {
+      todos = '[]'
     }
+    setTodoList(JSON.parse(todos))
   }
 
   useEffect(() => {
