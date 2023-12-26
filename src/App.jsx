@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Demo from "./components/Demo";
 import './index.css'
 
 function App() {
@@ -86,6 +87,7 @@ function App() {
 
   return (
     <div>
+      <Demo />
       <input placeholder="请输入" onChange={handleInputValue} />
       <button onClick={handleAddTodoList}>添加</button>
       {todos.map((item) => {
