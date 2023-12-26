@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+/* 实际开发中估计要使用rem vw or vh来实现百分比布局 */
+div:nth-child(1) {
+    width: 100px; 
+    background-color: red;
+}
+
+div:nth-child(2) {
+    flex: 1;
+    background-color: green;
+}
+
+div:nth-child(3) {
+    width: 100px;
+    background-color: blue;
+}
